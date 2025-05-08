@@ -1,0 +1,327 @@
+<div id="background">
+    <div class="rooms">
+        <img class="room" src="https://christinaharcarstudio.com/wp-content/uploads/2024/08/New-Image-for-visualizer-room-upload-scaled.jpg" alt="Wall 1">
+        <img class="room" src="https://christinaharcarstudio.com/wp-content/uploads/2024/08/Empty-Room-for-Visualizer-2-with-LOGO-scaled.jpg" alt="Wall 2">
+        <img class="room" src="https://christinaharcarstudio.com/wp-content/uploads/2024/08/Empty-Room-for-Visualizer-3-with-LOGO-1-scaled.jpg" alt="Wall 3">
+        <img class="room" src="https://christinaharcarstudio.com/wp-content/uploads/2024/08/Empty-Room-for-Visualizer-4-with-LOGO-1-scaled.jpg" alt="Wall 4">
+        <img class="room" src="https://christinaharcarstudio.com/wp-content/uploads/2024/08/Empty-Room-for-Visualizer-5-with-LOGO-1-scaled.jpg" alt="Wall 5">
+        <img class="room" src="https://christinaharcarstudio.com/wp-content/uploads/2024/08/Empty-Room-for-Visualizer-6-with-LOGO-scaled.jpg" alt="Wall 6">
+        <img class="room" src="https://christinaharcarstudio.com/wp-content/uploads/2024/08/Empty-Room-for-Visualizer-7-with-LOGO-1-scaled.jpg" alt="Wall 7">
+        <img class="room" src="https://christinaharcarstudio.com/wp-content/uploads/2024/08/Empty-Room-for-Visualizer-8-with-LOGO-1-scaled.jpg" alt="Wall 8">
+        <img class="room" src="https://christinaharcarstudio.com/wp-content/uploads/2024/08/Empty-Room-for-Visualizer-1-with-LOGO-1-scaled.jpg" alt="Wall 10">
+    </div>
+
+    <div id="wall">
+        <div id="painting-container">
+            <div id="resize-handle"></div>
+        </div>
+        <div id="upload-section">
+            <label for="upload-wall">Upload Your Wall Image:</label>
+            <input type="file" id="upload-wall" accept="image/*">
+        </div>
+    </div>
+
+    <h3>Select Painting</h3>
+    <div class="painting-carousel">
+        <button class="carousel-control prev">‹</button>
+        <div class="paintings">
+            <!-- 25 Default Painting Images -->
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/08/Loops-3.jpg" alt="Painting 1">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/Freedom-1.jpg" alt="Painting 2">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/Spirit-Lead-Me-1.jpg" alt="Painting 3">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/Shes-So-Many-Things-01-scaled.jpg" alt="Painting 4">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/08/I_ll-Meet-You-There-1-scaled.jpg" alt="Painting 5">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/08/Color-Pop-1.jpg" alt="Painting 6">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/Play-1.jpg" alt="Painting 7">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/Abstract-Coastline-A-small.jpg" alt="Painting 8">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/08/serenity-scaled.jpg" alt="Painting 9">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/Blueprints-for-Creation-1.jpg" alt="Painting 10">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/08/In-the-Sunlight-01.jpg" alt="Painting 11">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/Above-the-Clouds.jpg" alt="Painting 12">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/Reveal-A-Bold-Future-1.jpg" alt="Painting 13">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/You_re-in-Everything-1.jpg" alt="Painting 14">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/Quiet-Strength-1-scaled.jpg" alt="Painting 15">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/In-the-Garden-01.jpg" alt="Painting 16">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/Selah-1.jpg" alt="Painting 17">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/My-Future-Is-Heaven-scaled.jpg" alt="Painting 18">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/Lion-of-Judah-1.jpg" alt="Painting 19">
+            <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/Shes-So-Many-Things.jpg" alt="Painting 20">
+           
+            <!--<img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/BRODY-Going-Up.jpg" alt="Painting 21">-->
+           
+            <!--<img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/BRODY-The-Desert.jpg" alt="Painting 23">-->
+            <!--<img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/BRODY-The-Drop.jpg" alt="Painting 24">-->
+            <!--<img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/BRODY-The-Face.jpg" alt="Painting 25">-->
+              <!--<img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/BRODY-The-Happy-Place.jpg" alt="Painting 26">-->
+                <!--<img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/BRODY-War-Against-the-Evil-Merchant.jpg" alt="Painting 27">-->
+                 <!--<img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/BRODY-The-Monkey-King.jpg" alt="Painting 27">-->
+                 <!--<img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/BRODY-Good-vs.-Evil-and-the-Earth.jpg" alt="Painting 28">-->
+                  <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/08/Veins-1-1-510x1024-3-e1723839893491.jpg" alt="Painting 29">
+                  <img class="painting" src="https://christinaharcarstudio.com/wp-content/uploads/2024/07/Abstract-Coastline-B-small.jpg" alt="Painting 30">
+        </div>
+        </div>
+        <button class="carousel-control next">›</button>
+    </div>
+</div>
+
+<style>
+    #background {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .rooms {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .room {
+        width: 100px;
+        cursor: pointer;
+        margin: 10px;
+    }
+    #wall {
+        width: 100%;
+        max-width: 1200px;
+        height: 700px;
+        background-size: cover;
+        background-position: center;
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+    #painting-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 10;
+        cursor: grab;
+    }
+    #resize-handle {
+        width: 20px;
+        height: 20px;
+        background-image: url('https://christinaharcarstudio.com/wp-content/uploads/2024/08/pngtree-left-down-vector-icon-png-image_4017371-removebg-preview1.png');
+        background-size: cover;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        cursor: se-resize;
+        z-index: 11;
+    }
+    .painting-carousel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    .paintings {
+        display: flex;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        width: 100%;
+        gap: 10px;
+    }
+    .painting {
+        width: 120px;
+        flex-shrink: 0;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .carousel-control {
+        background: #ddd;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 20;
+    }
+    .carousel-control:hover {
+        background: #ccc;
+    }
+    .carousel-control.prev {
+        position: absolute;
+        left: 0;
+    }
+    .carousel-control.next {
+        position: absolute;
+        right: 0;
+    }
+    #upload-section {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        z-index: 20;
+        border: solid 1px;
+    }
+    @media (max-width: 1024px) {
+        #wall {
+            height: 500px;
+        }
+        #painting-container {
+            width: 150px;
+            height: 150px;
+        }
+        .painting {
+            width: 100px;
+        }
+    }
+    @media (max-width: 768px) {
+        .room {
+            width: 80px;
+        }
+        .painting {
+            width: 80px;
+        }
+        #wall {
+            height: 400px;
+        }
+        #painting-container {
+            width: 120px;
+            height: 120px;
+        }
+    }
+    @media (max-width: 480px) {
+        .room {
+            width: 60px;
+        }
+        .painting {
+            width: 60px;
+        }
+        #wall {
+            height: 300px;
+        }
+        #painting-container {
+            width: 100px;
+            height: 100px;
+        }
+        #upload-section {
+            font-size: 14px;
+        }
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const roomImages = document.querySelectorAll('.room');
+        const wall = document.getElementById('wall');
+        const paintingContainer = document.getElementById('painting-container');
+        const paintings = document.querySelectorAll('.painting');
+        const uploadWallInput = document.getElementById('upload-wall');
+        const resizeHandle = document.getElementById('resize-handle');
+        const prevButton = document.querySelector('.carousel-control.prev');
+        const nextButton = document.querySelector('.carousel-control.next');
+        const paintingsContainer = document.querySelector('.paintings');
+        let isDragging = false;
+        let isResizing = false;
+        let initialX, initialY, startX, startY, initialWidth, initialHeight;
+
+        function startDragging(event) {
+            isDragging = true;
+            paintingContainer.style.cursor = 'grabbing';
+            initialX = paintingContainer.offsetLeft;
+            initialY = paintingContainer.offsetTop;
+            startX = event.clientX || event.touches[0].clientX;
+            startY = event.clientY || event.touches[0].clientY;
+        }
+
+        function startResizing(event) {
+            isResizing = true;
+            startX = event.clientX || event.touches[0].clientX;
+            startY = event.clientY || event.touches[0].clientY;
+            initialWidth = paintingContainer.offsetWidth;
+            initialHeight = paintingContainer.offsetHeight;
+        }
+
+        function dragging(event) {
+            if (!isDragging) return;
+            const clientX = event.clientX || event.touches[0].clientX;
+            const clientY = event.clientY || event.touches[0].clientY;
+            const dx = clientX - startX;
+            const dy = clientY - startY;
+            paintingContainer.style.left = initialX + dx + 'px';
+            paintingContainer.style.top = initialY + dy + 'px';
+        }
+
+        function resizing(event) {
+            if (!isResizing) return;
+            const clientX = event.clientX || event.touches[0].clientX;
+            const clientY = event.clientY || event.touches[0].clientY;
+            const dx = clientX - startX;
+            const dy = clientY - startY;
+            paintingContainer.style.width = initialWidth + dx + 'px';
+            paintingContainer.style.height = initialHeight + dy + 'px';
+        }
+
+        function stopDragResize() {
+            isDragging = false;
+            isResizing = false;
+            paintingContainer.style.cursor = 'grab';
+        }
+
+        roomImages.forEach(room => {
+            room.addEventListener('click', () => {
+                wall.style.backgroundImage = url(${room.src});
+            });
+        });
+
+        paintings.forEach(painting => {
+            painting.addEventListener('click', () => {
+                paintingContainer.style.backgroundImage = url(${painting.src});
+            });
+        });
+
+        uploadWallInput.addEventListener('change', event => {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                wall.style.backgroundImage = url(${e.target.result});
+            };
+            reader.readAsDataURL(file);
+        });
+
+        paintingContainer.addEventListener('mousedown', startDragging);
+        paintingContainer.addEventListener('touchstart', startDragging);
+
+        resizeHandle.addEventListener('mousedown', startResizing);
+        resizeHandle.addEventListener('touchstart', startResizing);
+
+        document.addEventListener('mousemove', dragging);
+        document.addEventListener('touchmove', dragging);
+        document.addEventListener('mousemove', resizing);
+        document.addEventListener('touchmove', resizing);
+
+        document.addEventListener('mouseup', stopDragResize);
+        document.addEventListener('touchend', stopDragResize);
+
+        prevButton.addEventListener('click', function() {
+            paintingsContainer.scrollBy({
+                left: -200,
+                behavior: 'smooth'
+            });
+        });
+
+        nextButton.addEventListener('click', function() {
+            paintingsContainer.scrollBy({
+                left: 200,
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
